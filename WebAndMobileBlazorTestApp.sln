@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAssembly.Client", "WebAs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAssembly.Shared", "WebAssembly\Shared\WebAssembly.Shared.csproj", "{7633D7AE-3BB5-4DE8-935B-18B5FB3ED5EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui", "Maui\Maui.csproj", "{8FA17B5A-A0CC-4A8F-BA42-924CA46DCD04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maui", "Maui\Maui.csproj", "{8FA17B5A-A0CC-4A8F-BA42-924CA46DCD04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorLibrary", "RazorLibrary\RazorLibrary.csproj", "{CCB2F7B7-75A6-4E18-9A5B-9C1C6860B157}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{8FA17B5A-A0CC-4A8F-BA42-924CA46DCD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FA17B5A-A0CC-4A8F-BA42-924CA46DCD04}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8FA17B5A-A0CC-4A8F-BA42-924CA46DCD04}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CCB2F7B7-75A6-4E18-9A5B-9C1C6860B157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB2F7B7-75A6-4E18-9A5B-9C1C6860B157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB2F7B7-75A6-4E18-9A5B-9C1C6860B157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB2F7B7-75A6-4E18-9A5B-9C1C6860B157}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
