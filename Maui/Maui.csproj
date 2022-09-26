@@ -49,4 +49,9 @@
         <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\RazorLibrary\RazorLibrary.csproj" />
+      <ProjectReference Include="..\WebAssembly\Shared\WebAssembly.Shared.csproj" />
+    </ItemGroup>
+
 </Project>

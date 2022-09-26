@@ -1,10 +1,10 @@
-﻿using Maui.Data;
-using Microsoft.AspNetCore.Components.WebView.Maui;
+﻿using Microsoft.AspNetCore.Components.WebView.Maui;
 
 namespace Maui
 {
     public static class MauiProgram
     {
+        private const string webApiHostAddress = "https://localhost:7169/";
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
@@ -19,8 +19,7 @@ namespace Maui
 #if DEBUG
 		builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
-
-            builder.Services.AddSingleton<WeatherForecastService>();
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(webApiHostAddress) });
 
             return builder.Build();
         }
